@@ -1,0 +1,85 @@
+.footer-section {
+  background: #000;
+}
+
+.footer-div {
+  background-color: red;
+}
+
+.footer-first-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-title {
+  padding: 71px 0 71px 0;
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 55px;
+  /* identical to box height, or 138% */
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(231.91deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0) 86.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.footer-first-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 217px;
+     -moz-column-gap: 217px;
+          column-gap: 217px;
+}
+
+.footer-section-link {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: #949494;
+}
+
+.footer-section-real-link {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.number {
+  padding: 13px 0 61px 0;
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.footer-button {
+  background: #121212;
+  border-radius: 2px;
+  border: 1px solid #CEB787;
+  width: 279px;
+  height: 60px;
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}

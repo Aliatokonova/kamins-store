@@ -1,0 +1,144 @@
+.footer{
+  background: #000;
+}
+
+
+
+
+.footer-first-div{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 66px;
+}
+
+.footer-title{
+  padding: 71px 0 61px 0;
+
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  background: linear-gradient(231.91deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0) 86.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+
+
+}
+.footer-first-part{
+   display: flex;
+   column-gap: 217px;
+
+
+
+}
+.footer-section-link{
+  align-items: center;
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: #949494;
+
+}
+.footer-section-real-link{
+
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+
+
+}
+.footer-section-real-link-number{
+  padding-top: 13px;
+
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 33px;
+  color: #FFFFFF;
+
+
+}
+
+.footer-button{
+  margin-top: 61px;
+  background: #121212;
+  border-radius: 2px;
+  border: 1px solid #CEB787;
+  width: 279px;
+  height: 60px;
+
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+
+
+}
+.footer-items{
+  padding-top: 40px;
+}
+.footer-section-second-div{
+  padding-top: 51px;
+}
+
+.footer-second-section{
+  border: 1px solid #232323;;
+}
+
+.footer-second-title{
+  font-family: 'Scania Sans CY Headline';
+  padding-right: 110px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 70px;
+  letter-spacing: 0.105em;
+
+  color: #FFFFFF;
+
+
+
+}
+.footer-list{
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+
+  color: #6D6D6D
+}
+.list{
+  font-size: 14px;
+  padding-left: 585px;
+}
+
+
+
+.footer-item{
+  display: flex;
+  column-gap: 48px;
+}
+.footer-second-div{
+  display: flex;
+  padding-top: 39px;
+  align-items: center;
+}
+

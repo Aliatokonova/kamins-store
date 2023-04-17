@@ -1,0 +1,62 @@
+.header-nav{
+  display: flex;
+  padding: 76px 123px 81px 123px;
+  justify-content: space-between;
+}
+.header-list-second{
+  display: flex;
+  column-gap: 55px;
+  justify-content: flex-end;
+}
+.header-list-item{
+  justify-content: space-between;
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #949494;
+  &.color{
+    color: #FFCF7A;
+  }
+}
+.header-list{
+  display: flex;
+  column-gap: 39px;
+}
+.header-img{
+  width: 50px;
+  height: 50px;
+  background: #ECCF94;
+  border-radius: 2px;
+
+  &.phone{
+
+    width: 45px;
+    height: 45px;
+    padding: 10px 10px;
+
+
+
+
+
+  }
+
+}
+
+.header-list-img{
+
+  font-style: normal;
+
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0.105em;
+
+}
+.header-list-text{
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #6D6D6D;
+}

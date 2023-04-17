@@ -1,0 +1,53 @@
+@import "../fonts/Lab Grotesque/stylesheet.css";
+@import "../fonts/Scania Sans CY/stylesheet.css";
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    
+}
+body{
+    background-color: #1d1d1c;
+}
+
+@import "header";
+@import "main";
+@import "footer";
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
