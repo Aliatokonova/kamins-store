@@ -2,6 +2,11 @@
   display: flex;
   padding: 76px 123px 81px 123px;
   justify-content: space-between;
+
+
+}
+.header_list{
+  display: flex;
 }
 .header-list-second{
   display: flex;
@@ -24,33 +29,13 @@
   display: flex;
   column-gap: 39px;
 }
-.header-img{
-  width: 50px;
-  height: 50px;
-  background: #ECCF94;
-  border-radius: 2px;
-
-  &.phone{
-
-    width: 45px;
-    height: 45px;
-    padding: 10px 10px;
-
-
-
-
-
-  }
-
-}
-
 .header-list-img{
-
+  font-family: 'Scania Sans CY Headline';
   font-style: normal;
-
+  font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
   letter-spacing: 0.105em;
+  color: #FFFFFF;
 
 }
 .header-list-text{
@@ -59,4 +44,20 @@
   font-size: 12px;
   letter-spacing: 0.05em;
   color: #6D6D6D;
+}
+
+
+
+
+
+.header_phone{
+  width: 50px;
+  height: 50px;
+  background: #ECCF94;
+  border-radius: 2px;
+  margin-left: 61px;
+}
+.phone{
+ padding:15px;
+
 }

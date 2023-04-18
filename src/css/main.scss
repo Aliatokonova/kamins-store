@@ -1,31 +1,29 @@
-.main-first-section-div{
+.main-first-section-div {
   padding: 76px 123px 98px;
   display: flex;
 }
-.main-title{
 
-  left: 123px;
-  top: 227px;
+.main-title {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 250;
   font-size: 64px;
-
+  line-height: 80px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
   background: linear-gradient(226.43deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 99.78%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-
+  background-clip: text;
+  text-fill-color: transparent;
 
 
 }
-.main-text{
 
-  left: 126px;
-  top: 417px;
+.main-text {
+  padding: 29px 0 86px 0;
+
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 300;
@@ -36,31 +34,32 @@
 
 
 }
-.main-first-section-div{
+
+.main-first-section-div {
+  position: relative;
   display: flex;
 }
-.main-img{
 
-
-
-
-
-
-
+.main-img {
+  position: absolute;
+  top: 105px;
+  width: 600px;
+  height: 429px;
+  right: 120px;
 
 
 }
-.main-text-div{
+
+
+.main-text-div {
   display: flex;
-
-
-
-
+  column-gap: 80px;
 
 
 }
 
-.main-text-div-second-text{
+
+.main-text-div-second-text {
   position: absolute;
   font-family: 'Lab Grotesque';
   font-size: 14px;
@@ -68,7 +67,8 @@
   text-align: center;
   color: #FFFFFF;
 }
-.main-text-div-first-text{
+
+.main-text-div-first-text {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -80,11 +80,14 @@
 
   color: #FFFFFF;
 }
-.main-second-img{
+
+.main-second-img {
   padding-left: 40px;
   padding-bottom: 14px;
 }
-.main-second-title{
+
+
+.main-second-title {
   top: 879px;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -103,22 +106,21 @@
   text-fill-color: transparent;
 
 
-
-
-
 }
-.main-gradient{
- position: relative;
+
+.main-gradient {
+  position: relative;
   width: 826px;
   height: 551px;
-  margin:  110px 218px 20px 255px;
+  margin: 110px 218px 20px 255px;
 
 
   background: #392924;
   filter: blur(150px);
   border-radius: 300px;
 }
-.main-second-text{
+
+.main-second-text {
 
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -130,23 +132,28 @@
   color: #FFFFFF;
 
 }
-.main-second-img-kamin{
+
+
+.main-second-img-kamin {
   position: absolute;
   width: 1289px;
   height: 495px;
   top: 1069px;
-  padding: 0 115px 75px 135px;
+  padding: 0 115px 35px 135px;
 
 
 }
-.main-end-div{
+
+.main-end-div {
   display: flex;
 
-  column-gap: 135px;
-  padding: 0 228px 0 246px;
+  column-gap: 130px;
+  padding: 0 220px 0 220px;
 
 
 }
+
+
 .main-end-text {
   width: 179px;
 
@@ -162,23 +169,26 @@
   align-items: center;
 
 }
-.main-end-list{
+
+.main-end-list {
   display: flex;
   column-gap: 16px;
-  width: 306px;
-  height: 75px;
   align-items: center;
 }
-.main-end-img{
-  width:35.29px;
-  height :46px;
+
+
+.main-end-img {
+  width: 35.29px;
+  height: 46px;
 }
-.main-third{
+
+.main-third {
   display: flex;
   position: relative;
   padding: 0 0 0 206px;
 }
-.main-third-title{
+
+.main-third-title {
   padding: 224px 275px 23px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -196,7 +206,8 @@
 
 
 }
-.main-third-text{
+
+.main-third-text {
 
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -208,11 +219,13 @@
 
 
 }
-.main-third-img{
+
+.main-third-img {
   position: relative;
   padding-top: 15px;
 }
-.first-circle{
+
+.first-circle {
   position: absolute;
   width: 151px;
   height: 151px;
@@ -221,7 +234,8 @@
   border-radius: 50%;
   background: radial-gradient(100% 65.98% at 100% 73.18%, #FFFFFF 0.31%, #FFE2A4 59.23%, #FFD47C 100%);
 }
-.main-third-circle-title{
+
+.main-third-circle-title {
   font-family: 'Scania Sans CY';
   padding: 30px 0 10px 0;
   text-align: center;
@@ -232,7 +246,8 @@
 
 
 }
-.main-third--circle-text{
+
+.main-third--circle-text {
 
   font-family: 'Scania Sans CY';
   font-style: normal;
@@ -245,7 +260,8 @@
 
 
 }
-.main-third-gradient{
+
+.main-third-gradient {
   position: absolute;
   width: 335.98px;
   height: 421px;
@@ -257,7 +273,8 @@
   border-radius: 300px;
   transform: matrix(0.92, 0.39, 0.39, -0.92, 0, 0);
 }
-.second-circle{
+
+.second-circle {
 
   position: absolute;
   width: 98px;
@@ -268,7 +285,8 @@
   border: 1px solid #FFCF7A;
   filter: drop-shadow(0px 4px 23px #FFE2A4);
 }
-.third-circle{
+
+.third-circle {
   position: absolute;
   width: 194px;
   height: 194px;
@@ -279,7 +297,8 @@
   border: 2px solid #FFCF7A;
   filter: drop-shadow(0px 8px 35px #FFE2A4);
 }
-.main-four-gradient{
+
+.main-four-gradient {
   position: absolute;
   width: 163.39px;
   height: 198.72px;
@@ -291,14 +310,16 @@
   border-radius: 300px;
   transform: matrix(-0.94, 0.35, 0.35, 0.94, 0, 0);
 }
-.third-section-absolute{
+
+.third-section-absolute {
   bottom: 220px;
   left: 800px;
   position: absolute;
 
 
 }
-.third-section-absolute-text{
+
+.third-section-absolute-text {
   padding-top: 19px;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -309,7 +330,8 @@
 
 
 }
-.main-four-section-title{
+
+.main-four-section-title {
   text-align: center;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -324,7 +346,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.main-four-section-text{
+
+.main-four-section-text {
   padding-top: 32px;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -336,14 +359,14 @@
 
 }
 
-.main-five-section-div{
-  padding:  87px 113px  22px 113px;
+.main-five-section-div {
+  padding: 87px 113px 22px 113px;
   display: flex;
   column-gap: 84px;
 
 }
 
-.first-part-title{
+.first-part-title {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -351,7 +374,8 @@
   line-height: 36px;
   color: #FFFFFF;
 }
-.first-part-text{
+
+.first-part-text {
   padding: 25px 0 20px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -362,9 +386,8 @@
 }
 
 
-
-.first-part-second-title{
-  padding: 26px 0  10px 0;
+.first-part-second-title {
+  padding: 26px 0 10px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -373,12 +396,13 @@
   color: #757575;
 }
 
-.first-part-first-div{
+.first-part-first-div {
   padding-top: 10px;
   display: flex;
-  column-gap:94px ;
+  column-gap: 94px;
 }
-.first-part-list{
+
+.first-part-list {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -386,8 +410,9 @@
   line-height: 27px;
   color: #FFFFFF;
 }
-.second-div-title{
-  padding: 60px 0  20px 0;
+
+.second-div-title {
+  padding: 60px 0 20px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -399,23 +424,15 @@
 }
 
 
-
-
-
-
-
-
-
-
-.first-part-second-div{
+.first-part-second-div {
   display: flex;
   padding: 27px 0 22px 0;
- justify-content: space-between;
+  justify-content: space-between;
 
 }
 
 
-.second-div-list{
+.second-div-list {
   padding-bottom: 5px;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -426,13 +443,7 @@
 }
 
 
-
-
-
-
-
-
-.main-six-section-title{
+.main-six-section-title {
   padding: 130px 0 45px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -450,15 +461,17 @@
 
 
 }
-.black{
+
+.black {
   width: 100%;
   display: grid;
-  gap : 42px;
+  gap: 42px;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 123px 0 143px;
 
 }
-.black-list{
+
+.black-list {
   width: 100%;
   height: 267px;
   background-color: #000;
@@ -467,10 +480,7 @@
 }
 
 
-
-
-
-.black-title{
+.black-title {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 250;
@@ -490,17 +500,22 @@
 
 
 }
- .main-seven-section-container{
-   padding: 94px 0 67px 0;
- }
 
-.seven-section-first-div{
+.main-seven-section-container {
+  padding: 94px 0 67px 0;
+}
+
+.seven-section-first-div {
   display: flex;
-  justify-content: space-between;
+  column-gap: 85px;
   padding: 67px 143px 100px 123px;
 }
 
-.seven-section-title{
+.seven-section-first-img {
+  padding-top: 20px;
+}
+
+.seven-section-title {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 250;
@@ -518,13 +533,15 @@
 
 
 }
-.seven-section-div{
+
+.seven-section-div {
   display: flex;
   column-gap: 191px;
   padding-top: 68px;
 
 }
-.seven-section-list{
+
+.seven-section-list {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 500;
@@ -534,7 +551,8 @@
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
 }
-.seven-section-number{
+
+.seven-section-number {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -544,20 +562,18 @@
 
 
 }
-.seven-section-img{
-  padding-top: 10px;
-}
 
 
-.first-six-div{
+.first-six-div {
   padding: 113px 143px 45px 123px;
 }
-.first-six-first-divs{
+
+.first-six-first-divs {
   display: flex;
   justify-content: space-between;
 }
 
-.first-six-title{
+.first-six-title {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -566,11 +582,10 @@
   color: #FFFFFF;
 
 
-
 }
 
 
-.first-six-text{
+.first-six-text {
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -583,17 +598,14 @@
 }
 
 
-
-
-
-.first-six-second-div{
+.first-six-second-div {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 
-.first-six-second-div-title{
+.first-six-second-div-title {
   padding: 106px 0 35px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
@@ -605,7 +617,8 @@
 
 
 }
-.first-six-div-button{
+
+.first-six-div-button {
 
   width: 284px;
   height: 60px;
@@ -621,47 +634,22 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main-five-section-title{
+.main-five-section-title {
 
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
+  /* or 214% */
+
   font-size: 24px;
   line-height: 40px;
   color: #FFFFFF;
 
 
-
 }
-.main-five-section-text{
-  padding:25px 0  50px 0 ;
+
+.main-five-section-text {
+  padding: 25px 0 50px 0;
   font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 400;
@@ -670,20 +658,206 @@
   color: #FFFFFF;
 }
 
+.seven-text {
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-size: 10px;
 
 
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+}
 
 
+.slidecontainer {
+  width: 100%;
+
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 2px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
 
 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #FFCF7A;
+  border-radius: 2px;
+  cursor: pointer;
+
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #FFCF7A;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.slider-text {
+  padding-right: 10px;
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 55px;
 
 
+  color: #FFFFFF;
 
 
+}
+
+.slider-container {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  column-gap: 114px;
+  padding-bottom: 0;
+}
+
+.checkbox-second {
+  padding-bottom: 0;
+  display: flex;
+  column-gap: 200px;
+}
+
+.checkbox-list {
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #FFFFFF;
 
 
+}
+
+.seven-section-second-div {
+  padding-top: 20px;
+}
+
+.second {
+  padding: 20px 0;
+}
+.big-class{
+  display: flex;
+ column-gap: 55px;
+}
+.finish-div{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
 
 
+.finish-title{
+  padding-bottom: 15px;
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+
+
+}
+.finish-text{
+
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+
+  letter-spacing: 0.05em;
+
+  color: #FFCF7A;
+
+}
+.finish-button{
+  width: 254px;
+  height: 60px;
+  background: #ECCF94;
+  border-radius: 1px;
+
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #121212;
+
+
+}
+
+
+//
+//#checkbox__wrap {
+//  position: relative;
+//  .checkbox {
+//    visibility: hidden;
+//  }
+//
+//  label {
+//    position: absolute;
+//    width: 20px;
+//    height: 20px;
+//    border: 1px solid #ECCF94;
+//    top: 0;
+//    left: 0;
+//  }
+//
+//  input:checked+label {
+//    width: 20px!important;
+//    height: 20px!important;
+//    background: #ECCF94;
+//    border-radius: 2px;
+//    position: relative;
+//
+//    &:before {
+//      content: "";
+//      width: 10px;
+//      height: 2px;
+//      background-color: black;
+//      position: absolute;
+//      top: 5px;
+//    }
+//
+//    &:after {
+//      content: "";
+//      height: 10px;
+//      width: 2px;
+//      position: absolute;
+//      background-color: black;
+//      left: 5px;
+//    }
+//  }
+//
+//
+//}
 
 
 

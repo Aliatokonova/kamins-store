@@ -6,22 +6,22 @@
 }
 
 .main-title {
-  left: 123px;
-  top: 227px;
   font-family: "Lab Grotesque";
   font-style: normal;
   font-weight: 250;
   font-size: 64px;
+  line-height: 80px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   background: linear-gradient(226.43deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 99.78%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .main-text {
-  left: 126px;
-  top: 417px;
+  padding: 29px 0 86px 0;
   font-family: "Lab Grotesque";
   font-style: normal;
   font-weight: 300;
@@ -32,15 +32,27 @@
 }
 
 .main-first-section-div {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.main-img {
+  position: absolute;
+  top: 105px;
+  width: 600px;
+  height: 429px;
+  right: 120px;
 }
 
 .main-text-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 80px;
+     -moz-column-gap: 80px;
+          column-gap: 80px;
 }
 
 .main-text-div-second-text {
@@ -110,17 +122,17 @@
   width: 1289px;
   height: 495px;
   top: 1069px;
-  padding: 0 115px 75px 135px;
+  padding: 0 115px 35px 135px;
 }
 
 .main-end-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 135px;
-     -moz-column-gap: 135px;
-          column-gap: 135px;
-  padding: 0 228px 0 246px;
+  -webkit-column-gap: 130px;
+     -moz-column-gap: 130px;
+          column-gap: 130px;
+  padding: 0 220px 0 220px;
 }
 
 .main-end-text {
@@ -145,8 +157,6 @@
   -webkit-column-gap: 16px;
      -moz-column-gap: 16px;
           column-gap: 16px;
-  width: 306px;
-  height: 75px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -467,9 +477,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-column-gap: 85px;
+     -moz-column-gap: 85px;
+          column-gap: 85px;
   padding: 67px 143px 100px 123px;
 }
 
@@ -593,21 +603,6 @@
   border-radius: 1px;
 }
 
-.main-eight-title {
-  font-family: "Lab Grotesque";
-  font-style: normal;
-  font-weight: 250;
-  font-size: 40px;
-  line-height: 55px;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  background: linear-gradient(231.91deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0) 86.46%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
 .main-five-section-title {
   font-family: "Lab Grotesque";
   font-style: normal;
@@ -625,4 +620,72 @@
   font-size: 14px;
   line-height: 27px;
   color: #FFFFFF;
+}
+
+.seven-text {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-size: 10px;
+  line-height: 55px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 100%;
+  height: 2px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #FFCF7A;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #FFCF7A;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.slider-text {
+  padding-right: 10px;
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+
+.slider-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
